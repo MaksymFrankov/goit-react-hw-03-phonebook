@@ -22,6 +22,7 @@ export class App extends Component {
       contact.name.toLowerCase().includes(filter.toLowerCase())
     );
   };
+  // test
 
   changeFilter = filterValue => {
     this.setState({ filter: filterValue });
